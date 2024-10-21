@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css" />
+  </head>
+  <body>
+    <div>
+      <input id="display" readonly />
+      <div id="sk">
+        <div class="cl">
+          <button onclick="cl()" class="function">C</button>
+        </div>
+        <button onclick="delet()" class="function">Del</button>
+        <button onclick="one('%')" class="function">%</button>
+        <button onclick="one('/')" class="function">/</button>
+        <button onclick="one('7')">7</button>
+        <button onclick="one('8')">8</button>
+        <button onclick="one('9')">9</button>
+        <button onclick="one('+')" class="function">+</button>
+        <button onclick="one('6')">6</button>
+        <button onclick="one('5')">5</button>
+        <button onclick="one('4')">4</button>
+        <button onclick="one('-')" class="function">-</button>
+        <button onclick="one('3')">3</button>
+        <button onclick="one('2')">2</button>
+        <button onclick="one('1')">1</button>
+        <button onclick="one('*')" class="function">*</button>
+        <button onclick="one('0')" class="five">0</button>
+        <button onclick="one('.')">.</button>
+        <button onclick="calculate()" class="two">=</button>
+      </div>
+    </div>
+
+    <script src="cal.js"></script>
+  </body>
+</html>
